@@ -10,8 +10,12 @@ const App = () => {
             <ApprovalCard>
                 <CommentDetail author="Sam" timeAgo="Today at 4:45PM" content="Nice blog post" avatar={faker.image.avatar()}/>
             </ApprovalCard>
-            <CommentDetail author="Alex" timeAgo="Today at 2:00AM" content="Blah blah" avatar={faker.image.avatar()}/>
-            <CommentDetail author="Jane" timeAgo="Yesterday at 6:15PM" content="foo" avatar={faker.image.avatar()}/>
+            <ApprovalCard>
+                <CommentDetail author="Alex" timeAgo="Today at 2:00AM" content="Blah blah" avatar={faker.image.avatar()}/>
+            </ApprovalCard>
+            <ApprovalCard>
+                <CommentDetail author="Jane" timeAgo="Yesterday at 6:15PM" content="foo" avatar={faker.image.avatar()}/>
+            </ApprovalCard>
         </div>
     );
 }
